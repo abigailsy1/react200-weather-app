@@ -1,6 +1,7 @@
 import React from 'react';
 import Search from './Components/Search/Search';
 import History from './Components/History/History';
+import Cities from './Components/Cities/Cities';
 
 export default class App extends React.Component {
   render() {
@@ -16,6 +17,9 @@ export default class App extends React.Component {
           <Search/>
           </div>
 
+          <div className='col-md-6'>
+          <Cities/>
+          </div>
           <div className='col-md-6'>
           <History/>
           </div>

@@ -4,7 +4,7 @@ export default class Search extends React.Component {
   render() {
     return(
       <div>
-        <div className='container-fluid'>
+        <div className='container'>
         <div className='btn-group'>
           <button type='button' className='btn btn-primary' value='SD'>San Diego</button>
           <button type='button' className='btn btn-primary' value='Tokyo'>Tokyo</button>
@@ -14,7 +14,7 @@ export default class Search extends React.Component {
         </div>
 
         <form>
-          <div className='input-group mb-3'>
+          <div className='input-group'>
           <input type='text' className='form-control' placeholder='Enter a city'/>
           <div className='input-group-append'>
            <button type='button' className='btn btn-outline-secondary'>GO!</button>
