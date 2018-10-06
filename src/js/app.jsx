@@ -4,6 +4,7 @@ import History from './Components/History/History';
 import Cities from './Components/Cities/Cities';
 
 export default class App extends React.Component {
+
   render() {
     return (
       <div className='container'>
