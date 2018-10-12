@@ -1,25 +1,25 @@
 import React from 'react';
-import Search from './Components/Search/Search';
-import History from './Components/History/History';
-import Cities from './Components/Cities/Cities';
+import SearchBar from './Components/SearchBar';
+import Information from './Components/Information';
+import History from './Components/History';
 
 export default class App extends React.Component {
 
   render() {
     return (
       <div className='container'>
-        <div className='jumbotron'>
+        <div className='jumbotron text-center'>
           <h1>Origin Weather App</h1>
-          <p>Always know if you'll need an umbrella!</p>
+          <p>Always know when you'll need a lightsaber umbrella!</p>
         </div>
 
         <div className='row'>
           <div className='col-md-12'>
-          <Search/>
+          <SearchBar/>
           </div>
 
           <div className='col-md-6'>
-          <Cities/>
+          <Information/>
           </div>
           <div className='col-md-6'>
           <History/>
