@@ -1,7 +1,7 @@
 import React from 'react';
-import SearchBar from './Components/SearchBar';
-import Information from './Components/Information';
 import History from './Components/History';
+import Information from './Components/Information';
+import SearchBar from './Components/SearchBar';
 
 export default class App extends React.Component {
 
@@ -9,7 +9,7 @@ export default class App extends React.Component {
     return (
       <div className='container'>
         <div className='jumbotron text-center'>
-          <h1>Origin Weather App</h1>
+          <h1><strong>Origin Weather App</strong></h1>
           <p>Always know when you'll need a lightsaber umbrella!</p>
         </div>
 
