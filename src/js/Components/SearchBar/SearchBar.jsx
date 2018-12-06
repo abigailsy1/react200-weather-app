@@ -40,9 +40,21 @@ export default class SearchBar extends React.Component {
                         <div className='form-row'>
                              <div className='col'>
                                  <div className='input-group'>
-                                     <input onChange={this.handleUpdateSearch} value = {this.props.input} type=' text' className='form-control' placeholder='Enter a city' id='input' />
+                                     <input 
+                                        onChange={this.handleUpdateSearch} 
+                                        value = {this.props.input} 
+                                        type=' text' 
+                                        className='form-control' 
+                                        placeholder='Enter a city' 
+                                        id='input' />
+
                                      <span className='input-group-btn'>
-                                         <button onClick={this.handleSearchBtn} type='button' className='btn btn-success'><strong>Go!</strong></button>
+                                         <button 
+                                            onClick={this.handleSearchBtn} 
+                                            type='button' 
+                                            className='btn btn-success'>
+                                            <strong>Go!</strong>
+                                        </button>
                                      </span>
                                  </div>
                              </div>
